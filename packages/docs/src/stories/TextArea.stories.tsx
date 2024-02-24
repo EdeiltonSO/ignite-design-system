@@ -4,6 +4,11 @@ import { Box, Text, TextArea, TextAreaProps } from '@ignite-ui/react/src'
 export default {
   title: 'Form/TextArea',
   component: TextArea,
+  argTypes: {
+    onChange: {
+      action: 'typing',
+    },
+  },
   args: {},
   decorators: [
     (Story) => {

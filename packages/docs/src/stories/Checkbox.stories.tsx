@@ -4,6 +4,11 @@ import { Box, Text, Checkbox, CheckboxProps } from '@ignite-ui/react/src'
 export default {
   title: 'Form/Checkbox',
   component: Checkbox,
+  argTypes: {
+    onCheckedChange: {
+      action: 'check',
+    },
+  },
   args: {},
   decorators: [
     (Story) => {

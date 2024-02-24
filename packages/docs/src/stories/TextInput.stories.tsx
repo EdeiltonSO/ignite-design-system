@@ -4,6 +4,11 @@ import { Box, Text, TextInput, TextInputProps } from '@ignite-ui/react/src'
 export default {
   title: 'Form/TextInput',
   component: TextInput,
+  argTypes: {
+    onChange: {
+      action: 'typing',
+    },
+  },
   args: {},
   decorators: [
     (Story) => {
