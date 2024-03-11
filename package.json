@@ -8,7 +8,8 @@
     "build": "turbo run build"
   },
   "dependencies": {
-    "@stitches/react": "^1.2.8"
+    "@stitches/react": "^1.2.8",
+    "@storybook/storybook-deployer": "^2.8.16"
   },
   "devDependencies": {
     "turbo": "^1.12.3"
