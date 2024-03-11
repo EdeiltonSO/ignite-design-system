@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box, MultiStep, MultiStepProps } from '@ignite-ui/react/src'
+import { Box, MultiStep, MultiStepProps } from '@edeilton-ignite/react/src'
 
 export default {
   title: 'Form/MultiStep',
