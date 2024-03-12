@@ -1,5 +1,10 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box, Text, TextInput, TextInputProps } from '@igniteui-edeilton/react/src'
+import {
+  Box,
+  Text,
+  TextInput,
+  TextInputProps,
+} from '@igniteui-edeilton/react/src'
 
 export default {
   title: 'Form/TextInput',
@@ -40,5 +45,6 @@ export const Disabled: StoryObj<TextInputProps> = {
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'cal.com/',
+    placeholder: 'your-username',
   },
 }
