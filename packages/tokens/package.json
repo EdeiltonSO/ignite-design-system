@@ -1,6 +1,6 @@
 {
   "name": "@igniteui-edeilton/tokens",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
